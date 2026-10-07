@@ -22,9 +22,9 @@ const metrics = [
 
 export function MetricsSection() {
   return (
-    <section className="w-full bg-primary/5 py-12 border-y border-primary/10">
+    <section className="w-full bg-primary/5 border-y border-primary/10 py-16 pt-20 md:py-20 md:pt-24">
       <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-primary/20">
+        <div className="grid grid-cols-1 gap-8 text-center divide-y md:grid-cols-3 md:divide-x md:divide-y-0 divide-primary/20">
           {metrics.map((metric, index) => (
             <motion.div
               key={metric.id}
