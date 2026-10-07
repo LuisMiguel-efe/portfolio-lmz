@@ -2,10 +2,11 @@ import { Github, Linkedin, Instagram, Download } from 'lucide-react';
 import { PlaceHolderImages } from './placeholder-images';
 
 export const navLinks = [
-  { name: 'About', href: '#about' },
-  { name: 'Skills', href: '#skills' },
-  { name: 'Projects', href: '#projects' },
-  { name: 'Contact', href: '#contact' },
+  { name: 'Sobre Mí', href: '#about' },
+  { name: 'Servicios', href: '#services' },
+  { name: 'Habilidades', href: '#skills' },
+  { name: 'Proyectos', href: '#projects' },
+  { name: 'Contacto', href: '#contact' },
 ];
 
 export const socialLinks = [
@@ -21,43 +22,43 @@ const getPlaceholderImage = (id: string) => {
 export const projects = [
   {
     id: '1',
-    title: 'Virtual Assistant Bot with Cloud Deployment',
-    description: 'Designed and deployed a Telegram bot for student support, using a microservices architecture with FastAPI and Python. Implemented a web scraping system for extracting and caching information. Integrated an LLM for natural language processing and configured a CI/CD workflow on Render.',
-    techStack: ['FastAPI', 'Python', 'Web Scraping', 'Hugging Face', 'Docker', 'Render'],
+    title: 'Automatización y Desarrollo Full Stack',
+    description: 'Desarrollo de múltiples aplicaciones web internas para digitalizar procesos manuales: gestión de proveedores con autenticación y RLS, control de inventario y auditoría con escaneo QR. Implementación de flujos con n8n y Power Automate para leer facturas y reportes, apoyados en IA. Creación de dashboard en Power BI para análisis de más de 900 archivos.',
+    techStack: ['Next.js', 'React', 'Supabase', 'n8n', 'Power Automate', 'LLMs', 'Power BI'],
     link: '#',
     image: getPlaceholderImage('project1'),
   },
   {
     id: '2',
-    title: 'Smart Assistant for Academic Triage',
-    description: 'Design and implementation of an automation system (Google Apps Script) for the triage and classification of emails, using the Google Gemini (LLM) API and the Gmail API. Achieved automation of over 90% of manual classification.',
-    techStack: ['Google Apps Script', 'Gemini API', 'Gmail API', 'Automation'],
-    link: '#',
+    title: 'Proyecto Unikey - Control de Acceso Biométrico',
+    description: 'Diseño e implementación de un sistema de control de acceso biométrico con huella digital y plataforma de gestión web. Comunicación cifrada entre dispositivos embebidos y servidores centrales. Reducción del 45% en los tiempos de validación y gestión segura de registros para más de 100 usuarios.',
+    techStack: ['React', 'Node.js', 'FastAPI', 'Python', 'IoT', 'Full Stack'],
+    link: 'https://github.com/LuisMiguel-efe/unikey',
     image: getPlaceholderImage('project2'),
   },
   {
     id: '3',
-    title: 'SDN Web Application for Simulation and Management',
-    description: 'Developed a web application for network visualization and real-time configuration of OpenFlow rules. It featured a frontend in HTML5/CSS3 and a Python backend. Reduced SDN configuration time by 40%.',
-    techStack: ['HTML5/CSS3', 'Python', 'OpenFlow', 'SDN', 'Ryu'],
-    link: 'https://github.com/LuisMiguel-efe/sdn_app_web',
+    title: 'Bot AI - Asistente Virtual 24/7',
+    description: 'Creación de un asistente virtual resiliente con alta eficiencia operativa. Despliegue de microservicios con Docker en la nube bajo un flujo CI/CD. Desarrollo de Web Scraping seguro con BeautifulSoup y procesamiento de lenguaje natural en arquitectura Python.',
+    techStack: ['Python', 'Docker', 'CI/CD', 'Web Scraping', 'NLP', 'Microservices'],
+    link: '#',
     image: getPlaceholderImage('project3'),
   },
   {
     id: '4',
-    title: 'Biometric Access System',
-    description: 'Implemented a secure biometric access system with a web platform. The system used REST APIs (FastAPI) and managed up to 100 users, reducing validation time by 45%.',
-    techStack: ['FastAPI', 'Python', 'REST API', 'Full Stack', 'Machine Learning'],
-    link: 'https://github.com/LuisMiguel-efe/unikey',
+    title: 'SDN Web Application',
+    description: 'Desarrollo de aplicación web para visualización de red y configuración en tiempo real de reglas OpenFlow, reduciendo tiempos de configuración SDN en un 40%.',
+    techStack: ['HTML5/CSS3', 'Python', 'OpenFlow', 'SDN'],
+    link: 'https://github.com/LuisMiguel-efe/sdn_app_web',
     image: getPlaceholderImage('project4'),
   },
 ];
 
 export const skills = [
-  { name: 'Python/FastAPI', proficiency: 95 },
-  { name: 'Node.js/JavaScript', proficiency: 85 },
-  { name: 'AI & Automation', proficiency: 90 },
-  { name: 'Cloud & DevOps', proficiency: 85 },
-  { name: 'Cybersecurity', proficiency: 80 },
-  { name: 'Databases (SQL/NoSQL)', proficiency: 90 },
+  { name: 'Next.js & React', proficiency: 90 },
+  { name: 'Node.js & JS', proficiency: 85 },
+  { name: 'Python/FastAPI', proficiency: 90 },
+  { name: 'Automatización (n8n/RPA)', proficiency: 95 },
+  { name: 'Integración IA & LLMs', proficiency: 90 },
+  { name: 'Cloud, Docker & CI/CD', proficiency: 85 },
 ];

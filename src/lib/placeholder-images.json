@@ -8,27 +8,27 @@
     },
     {
       "id": "project1",
-      "description": "IoT Home Automation System",
-      "imageUrl": "https://images.unsplash.com/photo-1519558260268-cde7e03a0152?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzbWFydCUyMGhvbWV8ZW58MHx8fHwxNzYzMTM5OTI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "smart home"
+      "description": "Automatización y Analítica en Dashboard",
+      "imageUrl": "/project1_automation.png",
+      "imageHint": "dashboard automation"
     },
     {
       "id": "project2",
-      "description": "Cloud-Based Network Monitoring",
-      "imageUrl": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxuZXR3b3JrJTIwc2VydmVyfGVufDB8fHx8MTc2MzAzNzEwNHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "network server"
+      "description": "Control de Acceso Biométrico",
+      "imageUrl": "/project2_biometric.png",
+      "imageHint": "biometric fingerprint"
     },
     {
       "id": "project3",
-      "description": "5G Signal Analysis Tool",
-      "imageUrl": "https://images.unsplash.com/photo-1562144323-42ef68e7d494?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzaWduYWwlMjB0b3dlcnxlbnwwfHx8fDE3NjMxMzk5Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "signal tower"
+      "description": "Asistente Virtual IA",
+      "imageUrl": "/project3_chatbot.png",
+      "imageHint": "ai assistant nodes"
     },
     {
       "id": "project4",
-      "description": "Robotic Arm Control System",
-      "imageUrl": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cm9ib3RpYyUyMGFybXxlbnwwfHx8fDE3NjMxMDM4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "robotic arm"
+      "description": "Redes Definidas por Software",
+      "imageUrl": "/project4_sdn.png",
+      "imageHint": "sdn network topology"
     },
     {
       "id": "hero-background",

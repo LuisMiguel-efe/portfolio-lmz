@@ -3,10 +3,11 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { cn } from '@/lib/utils';
 import { WhatsAppButton } from '@/components/whatsapp-button';
+import { ThemeProvider } from '@/components/theme-provider';
 
 export const metadata: Metadata = {
-  title: 'Luis Miguel Ortiz Muñoz - Portafolio',
-  description: 'Portafolio de Luis Miguel Ortiz Muñoz, Software Developer and Automation Engineer',
+  title: 'LMZ Solutions - AI & Automation',
+  description: 'Portafolio de LMZ Solutions, ofreciendo soluciones innovadoras de Automatización e IA y desarrollo Full Stack.',
   icons: {
     icon: '/logo.png',
   },
@@ -18,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="es" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -28,9 +29,16 @@ export default function RootLayout({
         />
       </head>
       <body className={cn('font-body antialiased min-h-screen bg-background')}>
-        {children}
-        <Toaster />
-        <WhatsAppButton phoneNumber="573142288528" />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+          <Toaster />
+          <WhatsAppButton phoneNumber="573142288528" />
+        </ThemeProvider>
       </body>
     </html>
   );

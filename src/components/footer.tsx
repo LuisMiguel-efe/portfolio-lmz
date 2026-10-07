@@ -10,7 +10,7 @@ export function Footer() {
         <div className="flex items-center gap-2">
           <Image src="/logo.png" alt="Logo" width={24} height={24} />
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Electron Cloud Portafolio. All rights reserved.
+            &copy; {new Date().getFullYear()} LMZ Solutions. Todos los derechos reservados.
           </p>
         </div>
         <div className="flex items-center gap-2">
